@@ -54,6 +54,7 @@ public class Main {
         System.out.println("Department has " + Employee.getTotalHours()+" employee-hours a day.");
 
 
+
     }
 }
 
