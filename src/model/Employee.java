@@ -1,6 +1,4 @@
-package People;
-
-import Module3HomeWork.Dog;
+package model;
 
 public class Employee {
     private String name;
@@ -10,6 +8,7 @@ public class Employee {
     public static int countEmp=0;
     private static int totalHours;
     Position position;
+
 
     public Employee (){                             // default constructor
         countEmp++ ;
@@ -83,4 +82,7 @@ public class Employee {
             else return false;
         }
     }
+
+
+
 }
